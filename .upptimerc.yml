@@ -1,31 +1,28 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Rashi228
+repo: ims-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Frontend UI Portal
+    url: https://ims-frontend-1053994989870.us-central1.run.app
+  - name: Backend API Server
+    url: https://ims-backend-1053994989870.us-central1.run.app/docs
+  - name: Supabase Database (Deep Check)
+    url: https://ims-backend-1053994989870.us-central1.run.app/health
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: IMS System Status
+  introTitle: "**Incident Management System** Real-Time Status"
+  introMessage: Welcome to the public status page for the Enterprise IMS. If there are any service outages, they will be reported here automatically.
+  theme: light
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Main Project Code
+      href: https://github.com/Rashi228/Incident-Management-System
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Active Incidents
+  allSystemsOperational: All Systems Operational
+  incidentReport: "Incident Report #$NUMBER"
+  activeIncidentSummary: Opened at $DATE with $POSTS posts.
+  incidentTitle: Incident Details
