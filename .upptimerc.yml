@@ -10,6 +10,7 @@ sites:
     url: https://ims-backend-1053994989870.us-central1.run.app/health
 
 status-website:
+  baseUrl: /ims-status
   name: IMS System Status
   introTitle: "**Incident Management System** Real-Time Status"
   introMessage: Welcome to the public status page for the Enterprise IMS. If there are any service outages, they will be reported here automatically.
