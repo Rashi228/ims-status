@@ -3,11 +3,11 @@ repo: ims-status
 
 sites:
   - name: Frontend UI Portal
-    url: https://ims-frontend-1053994989870.us-central1.run.app
+    url: https://storage.googleapis.com/ims-frontend-prod-v2/index.html
   - name: Backend API Server
-    url: https://ims-backend-1053994989870.us-central1.run.app/docs
+    url: https://ims-backend-pveyn5r6vq-el.a.run.app/docs
   - name: Supabase Database (Deep Check)
-    url: https://ims-backend-1053994989870.us-central1.run.app/health
+    url: https://ims-backend-pveyn5r6vq-el.a.run.app/health
 
 status-website:
   baseUrl: /ims-status
