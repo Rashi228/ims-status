@@ -1,7 +1,7 @@
-url: https://ims-frontend-1053994989870.us-central1.run.app
-status: down
-code: 404
-responseTime: 39
-lastUpdated: 2026-07-23T23:51:16.352Z
+url: https://storage.googleapis.com/ims-frontend-prod-v2/index.html
+status: up
+code: 200
+responseTime: 309
+lastUpdated: 2026-07-24T10:07:06.711Z
 startTime: 2026-06-25T09:17:39.837Z
 generator: Upptime <https://github.com/upptime/upptime>
